@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    font-size: 40px;
+    width: 100%;
+    background-color: LightGray;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.container > div {
+    padding: 20px;
+    font-size: 60px;
+    text-align: left;
+    margin: 0%;
+}
+
+.d1 { background-color: rgb(27, 189, 238); }
+.d2 { background-color: rgb(219, 142, 70); }
+.d3 { background-color: rgb(68, 250, 216);  }
+.d4 { background-color: rgb(249, 117, 209);  }
+.d5 { background-color: rgb(140, 234, 103); }
