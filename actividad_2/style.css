@@ -2,7 +2,7 @@
     display: grid;
     width: 100%;
     background-color: LightGray;
-    grid-template-columns: 100px 100px 100px; /* Tres columnas de 100px cada una */
+    grid-template-columns: 100px 100px 100px; 
 }
 
 .container > div {
