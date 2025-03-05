@@ -4,7 +4,7 @@
     background-color: LightGray;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
-    grid-gap: 10px 20px;;
+    grid-gap: 10px;
 }
 
 .container > div {
@@ -17,7 +17,7 @@
 }
 
 .d1 { background-color: rgb(27, 189, 238); grid-column: 1; grid-row: 1; }
-.d2 { background-color: rgb(219, 142, 70); grid-column: 2; grid-row: 1; }
+.d2 { background-color: rgb(219, 142, 70); grid-column: 2; grid-row: 1; justify-self: center;}
 .d3 { background-color: rgb(68, 250, 216); grid-column: 3; grid-row: 1; }
 .d4 { background-color: rgb(249, 117, 209); grid-column: 1; grid-row: 2; }
 .d5 { 
