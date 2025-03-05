@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    width: 100%;
+    background-color: LightGray;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-gap: 10px 20px;
+}
+
+.container > div {
+    padding: 10px;
+    font-size: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.d1 { background-color: rgb(27, 189, 238); grid-column: 1; grid-row: 1; }
+.d2 { background-color: rgb(219, 142, 70); grid-column: 2; grid-row: 1; }
+.d3 { background-color: rgb(68, 250, 216); grid-column: 3; grid-row: 1; }
+.d4 { background-color: rgb(249, 117, 209); grid-column: 1; grid-row: 2; }
+.d5 { background-color: rgb(140, 234, 103); grid-column: 2; grid-row: 2; }
